@@ -4,7 +4,7 @@
 
 // The naive solution
 // Because of the nested loop, this will be a quadratic o of n.
-function naiveSumZero() {
+function naiveSumZero(arr) {
   for (let i = 0; i < arr.length; i++) {
     for (let j = i + 1; j < arr.length; j++) {
       if (arr[i] + arr[j] === 0) {
