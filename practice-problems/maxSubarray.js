@@ -20,3 +20,6 @@ function maxSubarraySum(arr, count) {
 
   return maxiSum;
 }
+
+const max = maxSubarraySum([100, 200, 300, 400], 2);
+console.log('max: ', max);
