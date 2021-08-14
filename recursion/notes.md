@@ -17,3 +17,12 @@
 #### The built-in data structure that manages what happens when functions are invoked.
 
 #### When working with recursion, we will be using the call stack a lot, we keep pushing new functions onto the the call stack when we write recursive functions
+
+## **Essential Parts Of A Recursive Function**
+
+- Base case
+- Different input
+
+#### The base case represents the condition when the recursion ends
+
+#### You always want to provide a different input each time you call the recursive function
